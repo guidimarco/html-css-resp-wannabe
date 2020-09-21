@@ -71,3 +71,24 @@ img {
 .clear {
   clear: both;
 }
+
+/* media query */
+@media screen and (max-width: 420px) {
+    .row {
+        width: 100%
+    }
+
+    img {
+        max-width: 100%;
+        height: unset;
+        max-height: 200px;
+    }
+
+    #lezioni .row > .left, #lezioni .row > .right {
+      width: 100%;
+    }
+
+    #steps .row > .left, #steps .row > .central, #steps .row > .right {
+      width: 100%;
+    }
+}
